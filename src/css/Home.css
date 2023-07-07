@@ -1,0 +1,71 @@
+.home-div{
+    display: flex;
+    width: 100%;
+
+}
+.left{
+    width: 100%;
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.content-left{
+    width: 50%;
+}
+.right{
+    flex: 50%;
+}
+.right img{
+    width: 1000px;
+}
+
+.heading{
+    width: 100%;
+}
+
+.Typewriter__wrapper {
+    font-size: 2em !important;
+    color: white !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+  }
+  .Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: white 
+  }
+  .wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }

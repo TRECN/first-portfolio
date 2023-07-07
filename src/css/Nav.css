@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.nav-item {
+  margin-right: 10px;
+  padding-right: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 20px;
+  
+  text-decoration: none;
+  padding: 15px;
+  cursor: pointer;
+}
+.nav-item:hover{
+  transform: scale(1.4);
+}
+
