@@ -2,7 +2,6 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import coding from '../images/Coding1.png'
 import '../css/Home.css'
-import rishabh from '../images/rishabh-tintodesigns-transparent.png'
 function Home() {
     return (
         <div id="home" className="section">
