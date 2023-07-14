@@ -1,0 +1,65 @@
+.about-div{
+    display: flex;
+    width: 100%;
+    transition: 2px all ease-in-out;
+}
+.about-div .right{
+    transition: 2px all ease-in-out;
+
+}
+.pic {
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    background-repeat: no-repeat;
+    background-image: url('../images/RishabhImg.png');
+    background-position: center;
+    background-size: contain;
+    box-shadow: 5px 10px 20px purple;
+}
+.heading-about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+.heading-about .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.about-details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about-details p{
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid red;
+    width: 90%;
+}
+.tabs .nav-item{
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.tabContent{
+    width: 80%;
+    /* border: 2px solid red; */
+  }
+

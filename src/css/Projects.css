@@ -1,0 +1,85 @@
+.section-proj {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.section-proj .left {
+  flex: 1;
+}
+
+.section-proj .right {
+  width: 1000px;
+  display: flex;
+  overflow: scroll;
+}
+
+.section-proj .heading {
+  margin-left: 100px;
+}
+
+.Slider {
+  width: 100%;
+  z-index: 0;
+}
+
+.section-proj .right::-webkit-scrollbar {
+  display: none;
+}
+
+.Card {
+  height: 750px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 10px 20px rgb(141, 141, 141);
+  border: 2px solid white;
+  background: linear-gradient(
+    188deg,
+    rgb(6, 168, 255) 0%,
+    rgb(146, 36, 177) 24%,
+    rgba(0, 125, 255, 1) 46%,
+    rgba(81, 42, 143, 1) 89%
+  );
+
+  border-radius: 500px;
+  margin-top: 100px;
+  margin-left: 70px;
+}
+.CardHeading {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.images {
+  display: flex;
+  height: 300px;
+  width: 400px;
+}
+
+.image {
+  width: 500px;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 2s all ease-in-out;
+  background-color: black;
+  border-radius: 70px;
+}
+
+.desc {
+  color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}

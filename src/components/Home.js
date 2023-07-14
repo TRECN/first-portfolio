@@ -12,14 +12,14 @@ function Home() {
                         <h1>Hi,<span className='wave'>👋 </span></h1>
                     </div>
                     <div className="heading Name">
-                        <h1>I'm Rishabh </h1>
+                        <h1>I'm <span style={{color:'rgb(0, 102, 255)',fontSize:'40px'}}>Rishabh Raj Tarun</span> </h1>
                     </div>
                     <div className="heading typewriter">
                         <Typewriter
                             options={{
                                 strings: [
-                                    "MERN Stack Developer",
-                                    "React Native Developer",
+                                    "a MERN Stack Developer",
+                                    "a React Native Developer",
                                 ],
                                 autoStart: true,
                                 loop: true,

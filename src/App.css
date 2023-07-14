@@ -1,6 +1,9 @@
 body{
   font-family: 'Raleway', sans-serif;
 }
+::-webkit-scrollbar{
+  display: none;
+}
 
 .app {
   display: flex;
@@ -8,7 +11,7 @@ body{
   align-items: center;
   justify-content: center;
   background: rgb(2,0,36);
-  background: linear-gradient(188deg, rgba(2,0,36,1) 0%, rgba(97,9,121,1) 24%, rgba(0,125,255,1) 46%, rgba(81,42,143,1) 89%);
+  background: linear-gradient(188deg, rgba(2,0,36,1) 0%, rgb(146, 36, 177) 24%, rgba(0,125,255,1) 46%, rgba(81,42,143,1) 89%);
 }
 
 .section {
