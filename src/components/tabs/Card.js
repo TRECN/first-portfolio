@@ -5,6 +5,7 @@ import { TbBrandCpp, TbBrandJavascript, TbBrandTypescript,TbBrandVscode } from '
 import { BiLogoJava,BiLogoFirebase,BiLogoMongodb,BiLogoGit,BiLogoGithub, BiLogoPython, BiLogoHtml5, BiLogoCss3,BiLogoNodejs,BiLogoReact } from 'react-icons/bi'
 import {SiExpress,SiPostman}from'react-icons/si'
 import{BsAndroid}from 'react-icons/bs'
+
 const Card = ({heading,images,description,stack,git}) => {
     const [currentSlide, setCurrentSlide] = useState(0);
     useEffect(() => {
@@ -27,9 +28,19 @@ const Card = ({heading,images,description,stack,git}) => {
         <div className="CardHeading">
             <h1>{heading}</h1>
             <a href={`${git}`}><BiLogoGithub/></a>
-            {
-                console.log(git)
-            }
+
+        </div>
+        <div className="stacks">
+          {
+            stack.map(item=>(
+              <div className="stack">
+                {
+                  item
+                }
+              </div>
+            ))
+              
+          }
         </div>
         <div className="desc">
             {description}

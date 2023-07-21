@@ -18,6 +18,7 @@
 
 .section-proj .heading {
   margin-left: 100px;
+  font-size: 25px;
 }
 
 .Slider {
@@ -82,4 +83,23 @@
   margin-top: 20px;
   font-size: 20px;
   text-align: center;
+}
+
+.CardHeading{
+  display: flex;
+  align-items: center;
+}
+
+.stacks{
+  display: flex;
+}
+
+.section-proj  .Typewriter__cursor {
+  font-size: 3em !important;
+  color: rgb(255, 0, 0) 
+}
+
+.stack{
+  color: white;
+  font-size: 20px;
 }

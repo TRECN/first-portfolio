@@ -35,7 +35,7 @@ function About() {
 
                                 options={{
                                     strings: [
-                                        "About",
+                                        "ABOUT",
                                     ],
                                     autoStart: true,
                                     loop: true,

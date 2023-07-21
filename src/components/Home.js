@@ -30,7 +30,7 @@ function Home() {
                    </div>
                 </div>
                 <div className="right">
-                    <img src={coding} alt="coding" />
+                    <img src={coding} alt="coding" className='coding'/>
                 </div>
             </div>
         </div>

@@ -1,4 +1,6 @@
-
+import { TbBrandCpp, TbBrandJavascript, TbBrandTypescript,TbBrandVscode } from 'react-icons/tb'
+import { BiLogoJava,BiLogoFirebase,BiLogoMongodb,BiLogoGit,BiLogoGithub, BiLogoPython, BiLogoHtml5, BiLogoCss3,BiLogoNodejs,BiLogoReact } from 'react-icons/bi'
+import {SiExpress,SiPostman, SiSocketdotio}from'react-icons/si'
 
 
 const data=[
@@ -13,7 +15,7 @@ const data=[
         ],
         description:'Switch-code is a coding platform that provide both web dev and online compiler in a single click. ',
 
-        stack:['mongodb','express','react','node','firebase'],
+        stack:[<BiLogoMongodb/>,<SiExpress/>,<BiLogoReact/>,<BiLogoNodejs/>,<BiLogoFirebase/>],
         git:'https://github.com/TRECN/Final-SwichCode'
     },
     {
@@ -30,7 +32,7 @@ const data=[
         ],
         description:'Face-Meet is a cutting-edge React Native full stack project that aims to create the immersive video conferencing experience using Socket.io, zegocloud. ',
 
-        stack:['mongodb','express','react','node','socket','android'],
+        stack:[<BiLogoMongodb/>,<SiExpress/>,<BiLogoReact/>,<BiLogoNodejs/>,<SiSocketdotio/>],
         git:'https://github.com/TRECN/FaceMeet-Native'
 
     },
@@ -46,7 +48,7 @@ const data=[
         ],
         description:'Zomato-clone is the clone of the online food delivery site "Zomato" developed to showcase the working of states and hooks in React',
 
-        stack:['react','html','css'],
+        stack:[<BiLogoReact/>,<BiLogoHtml5/>,<BiLogoCss3/>],
         git:'https://github.com/TRECN/Zomato-Clone'
 
     },
@@ -62,7 +64,8 @@ const data=[
         ],
         description:'Task-Cart is a multi purpose website that has a Todo app, Shopping cart section and a Movie View section',
 
-        stack:['react','html','css'],
+        stack:[<BiLogoReact/>,<BiLogoHtml5/>,<BiLogoCss3/>],
+
         git:'https://github.com/TRECN/taskcart'
     },
 
